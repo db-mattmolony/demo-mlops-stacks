@@ -42,15 +42,20 @@ targets:
       catalog_name: mmolony_mlops_stacks_staging
     workspace:
       host: https://e2-demo-field-eng.cloud.databricks.com
+      profile: e2-demo-field-eng
+
 
   prod:
     variables:
       catalog_name: mmolony_mlops_stacks_prod
     workspace:
       host: https://e2-demo-field-eng.cloud.databricks.com
+      profile: e2-demo-field-eng
+
 
   test:
     variables:
       catalog_name: mmolony_mlops_stacks_test
     workspace:
       host: https://e2-demo-field-eng.cloud.databricks.com
+      profile: e2-demo-field-eng
